@@ -7,9 +7,31 @@
 </head>
 <body>
     <h1>Chapter # 7 - form</h1>
+    
     <form action="">
-        <label for="name">Name</label>
-        <input type="text">
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label for="username">Name :</label>
+            <input type="text" id="username" name="username" placeholder="Enter Your Name">
+
+            <br><br>
+
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email"> 
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Your Review:
+            </legend>
+            <label for="">How did you hear about us?</label>
+            <select name="information" id="information">
+                <option value="google">Google</option>
+                <option value="facebook">Facebook</option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+        </fieldset>
     </form>
 </body>
 </html>
