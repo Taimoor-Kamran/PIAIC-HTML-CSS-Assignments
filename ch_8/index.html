@@ -120,14 +120,12 @@
 
         .nine {
             width: 80%;
-            height: 500px;
+            height: 600px;
             margin: 20px auto;
-            background-color: blue;
         }
         .nine .child1{
             width: 100%;
-            height: 250px;
-            border: 1px solid black;
+            height: 350px;
             display: block;
         }
         .nine .child2{
@@ -142,6 +140,7 @@
 
         .nine p {
             font-size: 18px;
+            flex-wrap: wrap;
         }
 
         @media screen and (max-width: 700px){
@@ -153,6 +152,41 @@
             }
             .eight {
                 height: 300px;
+            }
+            .nine{
+                height: 1200px;
+            }
+            .nine p{
+                flex-wrap: wrap;
+                font-size: 14px;            
+            }
+            .nine img{
+                float: none;
+                margin: 0 auto;
+                width: 100%;
+            }
+            .nine .child1{
+                border: 3px solid black;
+                border-radius: 10px;
+                height: 500px;
+                flex-wrap: wrap;
+                overflow: scroll;   
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px 0px 10px 20px;
+                margin-bottom: 20px;
+            }
+            .nine .child2{
+                border: 3px solid black;
+                border-radius: 10px;
+                height: 500px;
+                flex-wrap: wrap;
+                overflow: scroll;   
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px 0px 10px 20px;
             }
         }
     </style>
@@ -198,15 +232,13 @@
         </nav>
     </div>
     <div class="five">
-        <p><img src="/ch_8/Image/pana_cloud.png" width="180px" alt="sample image" class="align-right">Lorem ipsum dolor
-            sit amet consectetur, adipisicing elit. Autem dolor fuga omnis assumenda, earum quam quibusdam aspernatur
-            consectetur distinctio commodi optio cum ipsam tempora mollitia fugit id minima error quasi doloribus esse.
-            Sequi voluptate veniam id obcaecati accusantium ad tempora similique possimus ducimus. Magni perferendis
-            blanditiis nulla aspernatur reprehenderit sequi voluptatum natus non harum, veniam iste consequatur hic
-            tempore, aut sunt quibusdam omnis deleniti sit maxime cumque quasi alias recusandae fuga nihil! Ab optio
-            beatae velit consectetur et consequatur corrupti iure, esse dignissimos dolor ullam, est culpa asperiores!
-            Ducimus in beatae cumque excepturi ex. Vero tempore laudantium voluptatem, eligendi reprehenderit vel enim
-            temporibus quia pariatur ipsa animi est molestiae dignissimos maxime facilis reiciendis maiores incidunt.
+        <p><img src="/ch_8/Image/pana_cloud.png" width="180px" alt="sample image" class="align-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae praesentium mollitia iusto ullam
+            nisi voluptas a libero assumenda beatae vitae odit corrupti aperiam soluta nam, iste minus qui itaque? Non
+            soluta, qui ipsam odio magnam maxime in molestias voluptates deleniti porro repellat cupiditate culpa labore
+            at iure, itaque quo nobis eveniet est recusandae ut commodi! Dignissimos rem maiores unde pariatur commodi
+            fuga ea ratione explicabo voluptatum ad labore similique sapiente veritatis aspernatur, dolorum tempora nam
+            fugit quia ipsam quibusdam inventore! Velit mollitia similique necessitatibus distinctio, deleniti sapiente
+            dolorem inventore animi sed nobis aut harum voluptates sequi enim, fugiat alias.
         </p>
         <br>
         <br>
@@ -259,18 +291,19 @@
 
          <br>
          <h3>why it's about:</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aperiam, consectetur fugiat maiores commodi dolorum ut, reprehenderit facilis sapiente tenetur ratione accusantium animi, veritatis sed. Officiis, impedit dignissimos, placeat unde deleniti ea cum natus omnis officia laborum exercitationem mollitia iure quis libero sapiente. Illum eum quibusdam magnam explicabo voluptates libero molestiae optio atque odio deleniti itaque quos minus ipsum harum consectetur corporis, iure ad odit aspernatur, unde est quisquam ut! Eos quam adipisci alias atque minima animi. Distinctio doloremque quam dolore suscipit sit rem ipsa eum molestiae omnis id dolorem maiores nisi eos expedita corporis quas eligendi quaerat, impedit in!</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aperiam, consectetur fugiat maiores commodi dolorum ut, reprehenderit facilis sapiente tenetur ratione accusantium animi, veritatis sed. Officiis, impedit dignissimos, placeat unde deleniti ea cum natus omnis officia laborum exercitationem mollitia iure quis libero sapiente. Illum eum quibusdam magnam explicabo voluptates libero molestiae optio atque odio deleniti itaque quos minus ipsum harum consectetur corporis, iure ad odit aspernatur, unde est quisquam ut! Eos quam adipisci alias atque minima animi. Distinctio doloremque quam dolore.</p>
         </div>
         <div class="child2">
             <p><img src="/ch_8/Image/card.jpeg" width="300px" height="200px" alt=""><h3>Why it's special:</h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, ut. Culpa, minus obcaecati! Facilis.</p>
 
             <br>
             <h3>why it's about:</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aperiam, consectetur fugiat maiores commodi dolorum ut, reprehenderit facilis sapiente tenetur ratione accusantium animi, veritatis sed. Officiis, impedit dignissimos, placeat unde deleniti ea cum natus omnis officia laborum exercitationem mollitia iure quis libero sapiente. Illum eum quibusdam magnam explicabo voluptates libero molestiae optio atque odio deleniti itaque quos minus ipsum harum consectetur corporis, iure ad odit aspernatur, unde est quisquam ut! Eos quam adipisci alias atque minima animi. Distinctio doloremque quam dolore suscipit sit rem ipsa eum molestiae omnis id dolorem maiores nisi eos expedita corporis quas eligendi quaerat, impedit in!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aperiam, consectetur fugiat maiores commodi dolorum ut, reprehenderit facilis sapiente tenetur ratione accusantium animi, veritatis sed. Officiis, impedit dignissimos, placeat unde deleniti ea cum natus omnis officia laborum exercitationem mollitia iure quis libero sapiente. Illum eum quibusdam magnam explicabo voluptates libero molestiae optio atque odio deleniti itaque quos minus ipsum harum consectetur corporis, iure ad odit aspernatur, unde est quisquam ut! Eos quam adipisci alias atque minima animi. Distinctio doloremque quam dolore </p>
         </div>
     </div>
-
-
+    <div class="fourth">
+        <p>Copyright @ 2019. All rights reserverd.</p>
+    </div>
 </body>
 
 </html>
